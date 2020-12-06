@@ -7,7 +7,6 @@ import GoogleLogin from 'react-google-login'
 import Googlelogo from './assets/googlelogo.svg'
 import './Header.css'
 import firebaseDb from './firebase'
-import GoogleProfile from './GoogleProfile'
 
 class Slide extends React.Component{
    constructor(){
@@ -42,18 +41,18 @@ class Slide extends React.Component{
       
       <img  src={slide}/>
     
-      <a onClick={this.props.onclose}  >
+      <button onClick={this.props.onclose}  >
         <img className='closebutton' style={{position:'relative',bottom:'472.25px',right:'58px',zIndex:'300'}}src={slideclose}/>
-      </a>  
+      </button>  
       <div className="login" style={{position:'relative',bottom:'50px'}}>{<GoogleLogin
       clientId="752764198069-8i3kc7jpjqtokqnncbufom38o8pqtqcs.apps.googleusercontent.com"
 
       render={renderProps => (
         <div className="Header__google__wrap" style={{position:'relative',bottom:'275px',right:'399px'}}>
-       <a onClick={renderProps.onClick} className="googlebutton" >
+       <button onClick={renderProps.onClick} className="googlebutton" >
          <h3 className="Header__googlesignin">Continue with Google</h3>
          <img className="Header__google__logo" src={Googlelogo} />
-        </a>
+        </button>
      </div>
         
       )}

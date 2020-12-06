@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css';
-import Logo, { ReactComponent } from './assets/logo.svg'
+import Logo from './assets/logo.svg'
 import Name from './assets/ALINEA INVEST.svg'
 import Googlelogo from './assets/googlelogo.svg'
 import Hr from './assets/hr.svg'
@@ -84,10 +84,10 @@ class Header extends React.Component {
     const watchcolor={color:'#AE42C9',borderBottom:'3px solid #AE42C9',paddingBottom:'42px'}
     let content=<Stocklist /> 
     let dialog=<Slide slide={this.state.slide} onclose={(e)=>this.setState({slide:false})} googlebuttonclose={(e)=>this.setState({signedin:true})} />
-    let googlebutton=(<a onClick={this.slide} className="googlebutton" >
+    let googlebutton=(<button onClick={this.slide} className="googlebutton" >
     <h3 className="Header__google">Continue with Google</h3>
     <img className="Header__google__logo" src={Googlelogo} />
-   </a>)
+   </button>)
 
    
   if(this.state.signedin){
@@ -131,17 +131,17 @@ class Header extends React.Component {
 
      <div className="Header__Home">
        
-           <a onClick={this.homeclick} className="Header__Home" ><h3 title='You can view Popular Stocks here' style={homecolor} className="Header__Home">Home</h3>
+           <button onClick={this.homeclick} className="Header__Home" ><h3 title='You can view Popular Stocks here' style={homecolor} className="Header__Home">Home</h3>
            
           
-         </a>
+         </button>
      </div>
 
      <div className="Header__Watchlist">
-        <a onClick={this.watchclick} className="Header__Watchlist" >
+        <button onClick={this.watchclick} className="Header__Watchlist" >
             <h3 title='You can view your saved Stocks here in this Watchlist' style={watchcolor} className="Header__Watchlist">Watchlist</h3>
              
-        </a>     
+        </button>     
      </div>
 
      <div className="Header__google__wrap">

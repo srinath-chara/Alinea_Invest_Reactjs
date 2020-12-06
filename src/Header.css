@@ -157,3 +157,9 @@ h3.Username{
     color: #AE42C9;
 }
 
+button{
+    padding: 0;
+border: none;
+background: none;
+}
+
