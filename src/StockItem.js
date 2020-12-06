@@ -8,8 +8,8 @@ class StockItem extends React.Component{
         return(
             <div className="StockItem">
               
-              <img className="stockline" src={stockline}/>  
-              <img className="logo" src={this.props.logo} />
+              <img alt='stockline' className="stockline" src={stockline}/>  
+              <img alt='logo' className="logo" src={this.props.logo} />
               <div className="name">{this.props.name}</div>
               <div className="price">{this.props.price}</div>
               <div className="usd">USD</div>
