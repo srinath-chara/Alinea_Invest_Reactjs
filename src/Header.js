@@ -86,7 +86,7 @@ class Header extends React.Component {
     let dialog=<Slide slide={this.state.slide} onclose={(e)=>this.setState({slide:false})} googlebuttonclose={(e)=>this.setState({signedin:true})} />
     let googlebutton=(<button onClick={this.slide} className="googlebutton" >
     <h3 className="Header__google">Continue with Google</h3>
-    <img className="Header__google__logo" src={Googlelogo} />
+    <img alt='googlelogo' className="Header__google__logo" src={Googlelogo} />
    </button>)
 
    
@@ -119,14 +119,14 @@ class Header extends React.Component {
     return (
    <div className="Header__wrap"> 
     <div className='line'>
-         <img  style={{position:'relative',top:'12px',width:'1340px'}}src={Hr} />
+         <img alt='line' style={{position:'relative',top:'12px',width:'1340px'}}src={Hr} />
      </div>  
      <div className="Header__logo">
-      <img src={Logo} />
+      <img alt='logo' src={Logo} />
      </div>
 
      <div className="Header__name">
-       <img src={Name} />
+       <img alt='name' src={Name} />
      </div>
 
      <div className="Header__Home">
