@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.Stocktopic{
+
+    position: relative;
+width: 333px;
+height: 38px;
+left: 30px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 80%;
+
+
+color: #000000;
+}
+.StockItem{
+    position: relative;
+    top:90px;
+    right:80px;
+    height: 110px;
+}
+.stockline{
+    width: 1080px;
+    position: relative;
+    left:40px;
+    height: 110px;
+}
+.Stockheadleft{
+    position: relative;
+    top: 43px;
+    right:41px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 80%;
+/* identical to box height, or 20px */
+
+
+color: #000000;
+
+
+
+
+}
+
+.Stockheadright{
+    position:relative;
+    left:885px;
+    top:20px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 80%;
+    color: #000000;
+   
+}
+.Stockdata{
+   position: relative;
+   bottom:40px;
+   left:40px;
+}
+.Stocklist{
+    position: absolute;
+width: 333px;
+height: 38px;
+left: 60px;
+top: 40px;
+
+}
+.logo{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    bottom: 140px;
+    right: 80px;
+}
+
+.name{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    left: 150px;
+    bottom: 180px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 80%;
+    color: #000000;
+}
+
+.price{
+    position:relative;
+    bottom:260px;
+    left:855px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 80%;
+    color: #000000;
+
+}
+
+.diff{
+    position: relative;
+    bottom:250px;
+    left:766px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 80%;
+    text-align: right;
+    color: #27AE60;
+}
+
+.usd{
+    position: relative;
+    bottom:274px;
+    left:915px;
+    
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 80%;
+    color: #000000;
+}
+
+.closebutton:hover{
+    cursor:pointer;
+}
+
+.Watchtopic{
+
+    position: relative;
+width: 333px;
+height: 38px;
+right: 15px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 80%;
+
+
+color: #000000;
+}
+
+.nostock{
+    position: relative;
+    width: 250px;
+    height: 70px;
+    left: 350px;
+    top: 200px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 80%;
+    color: #000000;
+}
