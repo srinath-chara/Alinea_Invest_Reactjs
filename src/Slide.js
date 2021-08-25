@@ -63,7 +63,7 @@ class Slide extends React.Component{
       />}</div>
   </div>)
   if(this.state.loggedin)
-      login=(<div style={{position:'absolute',left:'1190px',bottom:'660px'}}><h3 className='Username'>{this.state.name}</h3><img alt='googleimg' style={{borderRadius:'50%',width:'65px'}} src={this.state.imageurl}/></div>)
+      login=(<div style={{position:'absolute',left:'1230px',bottom:'660px'}}><h3 className='Username'>{this.state.name}</h3><img alt='googleimg' style={{borderRadius:'50%',width:'65px'}} src={this.state.imageurl}/></div>)
   return(
   <div >{login}</div>
        
