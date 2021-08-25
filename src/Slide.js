@@ -37,7 +37,7 @@ class Slide extends React.Component{
     
     
     let login=( <div style={{position:'fixed',zIndex:'100',left:'150px',bottom:'40px' }} >
-      <img alt="backdim" style={{position:'fixed',right:'0px',bottom:'2px',zIndex:'-1'}} src={backdim}/>
+      <img alt="backdim" style={{position:'fixed',right:'20px',bottom:'2px',zIndex:'-1'}} src={backdim}/>
       
       <img alt='slide' src={slide}/>
     
@@ -63,7 +63,7 @@ class Slide extends React.Component{
       />}</div>
   </div>)
   if(this.state.loggedin)
-      login=(<div style={{position:'absolute',left:'1170px',bottom:'660px'}}><h3 className='Username'>{this.state.name}</h3><img alt='googleimg' style={{borderRadius:'50%',width:'65px'}} src={this.state.imageurl}/></div>)
+      login=(<div style={{position:'absolute',left:'1190px',bottom:'660px'}}><h3 className='Username'>{this.state.name}</h3><img alt='googleimg' style={{borderRadius:'50%',width:'65px'}} src={this.state.imageurl}/></div>)
   return(
   <div >{login}</div>
        
