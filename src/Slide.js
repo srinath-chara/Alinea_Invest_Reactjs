@@ -37,7 +37,7 @@ class Slide extends React.Component{
     
     
     let login=( <div style={{position:'fixed',zIndex:'100',left:'150px',bottom:'40px' }} >
-      <img alt="backdim" style={{position:'fixed',right:'20px',bottom:'2px',zIndex:'-1'}} src={backdim}/>
+      <img alt="backdim" style={{position:'fixed',right:'20px',bottom:'2px',zIndex:'-1',width:'100%'}} src={backdim}/>
       
       <img alt='slide' src={slide}/>
     
